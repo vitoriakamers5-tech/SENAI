@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(231, 186, 194);
+}
+
+h2{
+    text-align: center;
+    color: #6A1B9A;
+    margin: 20px 0px;
+}
+
+p{
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.padrao-01{
+    border: 1px solid rebeccapurple;
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url(assets/Rectangle\ 1.png);
+}
+
+.padrao-02{
+    border: 1px solid rebeccapurple;
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url(assets/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+}
+
+.padrao-03{
+    border: 1px solid rebeccapurple;
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url(assets/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.padrao-04{
+    border: 1px solid rebeccapurple;
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url(assets/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.padrao-05{
+    border: 1px solid rebeccapurple;
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url(assets/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
