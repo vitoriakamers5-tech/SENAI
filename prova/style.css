@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.btn-01{
+    background-color:#00C200;
+    color: white;
+    padding: 8px 19px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #00C200;
+}
+
+.btn-01:hover{
+    background-color: white;
+    color: #00C200;
+}
+
+.btn-02{
+    color: #00C200;
+    background-color: white;
+    padding: 8px 19px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #00C200;
+}
+
+.btn-02:hover{
+    color: white;
+    background-color: #00C200;
+}
+
+.btn-03{
+    color: #00C200;
+    background-color: white;
+    padding: 8px 19px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #00C200;
+}
+
+.btn-03:hover{
+    color: white;
+    background-color: #00C200;
+}
+
+.btn-04{
+    color: #00C200;
+    background-color: white;
+    padding: 8px 19px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #00C200;
+}
+
+.btn-04:hover{
+    color: white;
+    background-color: #00C200;
+}
+
+.card-img-01{
+    width: 206px;
+    height: 97px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-image: url(./assets/notebook.png);
+    background-position: center;
+}
+
+.card-img-02{
+    width: 206px;
+    height: 97px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-image: url(./assets/headset.png);
+    background-position: center;
+}
+
+.card-img-03{
+    width: 206px;
+    height: 97px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-image: url(./assets/teclado.png);
+    background-position: center;
+}
+.card-img-04{
+    width: 206px;
+    height: 97px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-image: url(./assets/cadeira.png);
+    background-position: center;
+}
+
+.card-img-05{
+    width: 206px;
+    height: 97px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-image: url(./assets/luminaria.png);
+    background-position: center;
+}
+
+.card-img-06{
+    width: 206px;
+    height: 97px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-image: url(./assets/mousepad.png);
+    background-position: center;
+}
+
+.card-img-07{
+    width: 206px;
+    height: 97px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-image: url(./assets/mouse.png);
+    background-position: center;
+}
+
+.card-img-08{
+    width: 206px;
+    height: 97px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-image: url(./assets/microfone.png);
+    background-position: center;
+}
+
+.card-img-09{
+    width: 206px;
+    height: 97px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-image: url(./assets/webcam.png);
+    background-position: center;
+}
+.card {
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+}
+
+.cards {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0px;
+    border-color: #DBDBDB;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+button{ 
+    background-color:#00C200;
+    color: white;
+    padding: 8px 19px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #00C200;
+}
+
+.desconto{
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: white;
+    background-color:#00C200;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    right: 15px;
+    top: 14px;
+}
+
+.desconto-02{
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: white;
+    background-color:#00C200;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    right: 15px;
+    top: 14px;
+}
+
+.desconto-03{
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: white;
+    background-color:#00C200;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    right: 15px;
+    top: 14px;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 10px;
+}
+
+.linha-02{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 10px;
+}
+
+.linha-03{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 10px;
+}
+
+.linha-04{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 10px;
+}
+
+.linha-05{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 10px;
+}
+
+.linha-06{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 10px;
+}
+
+.linha-07{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 10px;
+}
+
+.linha-08{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 10px;
+}
+.linha-09{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 10px;
+}
+
+.pink{
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: white;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+.cinza{
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: white;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
