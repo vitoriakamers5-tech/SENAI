@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linha{
+    background-color: #163F92;
+    padding: 12px 120px;
+    display: flex;
+}
+
+.links-linha{
+    display: flex;
+    gap: 20px;
+}
+
+.links-linha a{
+    color: white;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.header{
+    padding: 20px 120px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.links-header{
+    display: flex;
+    gap: 40px;
+}
+
+.links-header a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hero{
+    width: 100%;
+    background-image: url(./assets/background-hero.png);
+    height: 30vw;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+span{
+    color: #163F92;
+}
+h1{
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    width: 980px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.first{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.second{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.cards{
+    max-width: 980px;
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    padding: 20px;
+    height: 160px;
+    max-width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
+    flex-direction: column;
+}
+
+.card p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.h-01{
+    color: #163F92;
+}
+
+.quadrado-01{
+    max-width: 980px;
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+    justify-content: center;
+    width: 497px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5x 10px black rgba(0, 0, 0, 0.397);
+
+}
+.quadrado{
+    
+}
+
+.img{
+    background-image: url(./assets/background-container.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    margin: 60px auto;
+}
+
+body{
+    background-color: #EAEAEA;
+}
+
