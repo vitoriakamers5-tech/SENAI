@@ -1,7 +1,7 @@
-function saudacao(nome){
+function saudacao(){
     console.log(`Olá, seja bem-vindo(a)!`)
 }
 
-saudacao(`Olá, seja bem-vindo(a)!`);
-saudacao(`Olá, seja bem-vindo(a)!`);
-saudacao(`Olá, seja bem-vindo(a)!`)
+saudacao()
+saudacao()
+saudacao()
